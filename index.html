@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#153b2f" />
+  <meta name="description" content="Agropecuária Mazzola — rações, pesca, acessórios, linha pet e produtos para o campo em Itapetininga." />
+  <meta property="og:title" content="Agropecuária Mazzola" />
+  <meta property="og:description" content="Tudo para seus animais, sua pescaria e o campo em um só lugar." />
+  <meta property="og:type" content="website" />
+  <title>Agropecuária Mazzola | Rações, pesca e acessórios</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png" />
+  <link rel="preload" href="assets/pet-store.webp" as="image" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <p><span class="status-dot"></span> Atendimento direto e rápido</p>
+      <p class="topbar__desktop">Consulte produtos, marcas e disponibilidade pelo WhatsApp.</p>
+    </div>
+  </div>
+
+  <header class="site-header" id="inicio">
+    <div class="container header__inner">
+      <a class="brand" href="#inicio" aria-label="Agropecuária Mazzola — página inicial">
+        <span class="brand__mark"><img src="assets/logo-original.png" alt="Logo da Agropecuária Mazzola" width="54" height="54" /></span>
+        <span class="brand__name"><small>Agropecuária</small><strong>Mazzola</strong></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <a href="#categorias">Categorias</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#sobre">A Mazzola</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <a class="button button--header js-whatsapp" href="#" data-message="Olá! Vim pelo site da Agropecuária Mazzola e gostaria de atendimento.">
+        Falar no WhatsApp <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <p class="eyebrow"><span></span> Rações, pets, pesca e campo</p>
+          <h1>O cuidado que seus animais merecem. <em>A variedade que você procura.</em></h1>
+          <p class="hero__lead">Produtos para animais, pescaria e rotina rural, apresentados em um catálogo simples para você encontrar o que precisa e falar diretamente com a loja.</p>
+
+          <div class="hero__actions">
+            <a class="button button--primary js-whatsapp" href="#" data-message="Olá! Gostaria de consultar os produtos da Agropecuária Mazzola.">Consultar pelo WhatsApp <span>→</span></a>
+            <a class="button button--outline" href="#catalogo">Explorar catálogo</a>
+          </div>
+
+          <div class="hero__highlights" aria-label="Diferenciais">
+            <div><span class="highlight-icon">✓</span><p><strong>Atendimento próximo</strong><small>Converse direto com a equipe</small></p></div>
+            <div><span class="highlight-icon">✓</span><p><strong>Várias categorias</strong><small>Para pets, pesca e campo</small></p></div>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal reveal--delay">
+          <div class="hero-photo hero-photo--main">
+            <img src="assets/pet-store.webp" alt="Loja com produtos e acessórios para animais" />
+            <span class="hero-photo__tag">Tudo em um só lugar</span>
+          </div>
+          <div class="hero-photo hero-photo--secondary">
+            <img src="assets/dog-food-pour.webp" alt="Ração sendo colocada em um comedouro" />
+          </div>
+          <div class="hero__mini-card">
+            <img src="assets/logo-white.png" alt="" />
+            <p><small>Catálogo</small><strong>prático e direto</strong></p>
+          </div>
+          <div class="hero__shape" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="brand-strip" aria-label="Principais linhas de produtos">
+      <div class="container brand-strip__inner">
+        <span>Rações</span><i></i><span>Pet</span><i></i><span>Pesca</span><i></i><span>Aves</span><i></i><span>Campo</span><i></i><span>Acessórios</span>
+      </div>
+    </section>
+
+    <section class="section categories" id="categorias">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div>
+            <p class="eyebrow"><span></span> Encontre por categoria</p>
+            <h2>Do pet ao campo, tudo organizado para facilitar sua busca.</h2>
+          </div>
+          <p>Escolha uma categoria e veja uma seleção de produtos. A disponibilidade pode ser consultada diretamente pelo WhatsApp.</p>
+        </div>
+
+        <div class="category-grid">
+          <article class="category-card category-card--large reveal" data-filter-target="racoes">
+            <img src="assets/dog-food-bowl.webp" alt="Ração seca em um comedouro" />
+            <div class="category-card__overlay"></div>
+            <div class="category-card__content">
+              <span>Nutrição e cuidado</span>
+              <h3>Rações</h3>
+              <p>Opções para cães, gatos, aves e animais de criação.</p>
+              <button type="button" class="category-link">Ver produtos <b>→</b></button>
+            </div>
+          </article>
+
+          <article class="category-card reveal" data-filter-target="pet">
+            <img src="assets/pet-collars.webp" alt="Coleiras e acessórios coloridos para pets" />
+            <div class="category-card__overlay"></div>
+            <div class="category-card__content">
+              <span>Bem-estar animal</span>
+              <h3>Linha pet</h3>
+              <p>Coleiras, comedouros e acessórios.</p>
+              <button type="button" class="category-link">Explorar <b>→</b></button>
+            </div>
+          </article>
+
+          <article class="category-card reveal" data-filter-target="pesca">
+            <img src="assets/fishing-reels.webp" alt="Molinete e equipamento de pesca" />
+            <div class="category-card__overlay"></div>
+            <div class="category-card__content">
+              <span>Para sua pescaria</span>
+              <h3>Pesca</h3>
+              <p>Varas, linhas, anzóis e acessórios.</p>
+              <button type="button" class="category-link">Explorar <b>→</b></button>
+            </div>
+          </article>
+
+          <article class="category-card reveal" data-filter-target="aves">
+            <img src="assets/chicken-feed.webp" alt="Aves se alimentando em comedouro" />
+            <div class="category-card__overlay"></div>
+            <div class="category-card__content">
+              <span>Alimentação e manejo</span>
+              <h3>Aves</h3>
+              <p>Rações, sementes e acessórios de criação.</p>
+              <button type="button" class="category-link">Explorar <b>→</b></button>
+            </div>
+          </article>
+
+          <article class="category-card category-card--wide reveal" data-filter-target="campo">
+            <img src="assets/cattle-feed.webp" alt="Gado se alimentando em propriedade rural" />
+            <div class="category-card__overlay"></div>
+            <div class="category-card__content">
+              <span>Rotina rural</span>
+              <h3>Campo e criação</h3>
+              <p>Produtos de manejo, utilidades e soluções para o dia a dia.</p>
+              <button type="button" class="category-link">Ver soluções <b>→</b></button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section catalog" id="catalogo">
+      <div class="container">
+        <div class="catalog__header reveal">
+          <div>
+            <p class="eyebrow eyebrow--light"><span></span> Catálogo online</p>
+            <h2>Produtos em destaque</h2>
+            <p>Use os filtros para navegar e consulte a disponibilidade de cada item diretamente com a loja.</p>
+          </div>
+          <label class="catalog-search" for="product-search">
+            <span aria-hidden="true">⌕</span>
+            <input id="product-search" type="search" placeholder="Buscar produto..." autocomplete="off" />
+          </label>
+        </div>
+
+        <div class="filter-row reveal" role="group" aria-label="Filtrar produtos">
+          <button type="button" class="filter-button is-active" data-filter="todos">Todos</button>
+          <button type="button" class="filter-button" data-filter="racoes">Rações</button>
+          <button type="button" class="filter-button" data-filter="pet">Pet</button>
+          <button type="button" class="filter-button" data-filter="pesca">Pesca</button>
+          <button type="button" class="filter-button" data-filter="aves">Aves</button>
+          <button type="button" class="filter-button" data-filter="campo">Campo</button>
+        </div>
+
+        <div class="product-grid" id="product-grid" aria-live="polite"></div>
+        <p class="catalog-empty" id="catalog-empty" hidden>Nenhum produto encontrado. Tente outro termo ou categoria.</p>
+
+        <div class="catalog-cta reveal">
+          <div>
+            <span>Não encontrou o que procura?</span>
+            <strong>Fale com a equipe e consulte outras opções.</strong>
+          </div>
+          <a class="button button--white js-whatsapp" href="#" data-message="Olá! Procurei no catálogo e gostaria de consultar outro produto.">Consultar produto <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="container about__grid">
+        <div class="about__images reveal">
+          <figure class="about__image about__image--large"><img src="assets/pet-store.webp" alt="Variedade de produtos em loja para animais" /></figure>
+          <figure class="about__image about__image--small"><img src="assets/rural-boots.webp" alt="Trabalhador utilizando botas em ambiente rural" /></figure>
+          <div class="about__badge"><strong>Mazzola</strong><span>Agropecuária</span></div>
+        </div>
+
+        <div class="about__content reveal reveal--delay">
+          <p class="eyebrow"><span></span> A Agropecuária Mazzola</p>
+          <h2>Uma loja feita para quem cuida de animais, vive o campo e gosta de pescar.</h2>
+          <p>Este espaço apresenta as principais categorias da Mazzola de forma clara e moderna. O cliente encontra o que precisa, conhece a variedade da loja e inicia o atendimento com poucos cliques.</p>
+          <div class="about__features">
+            <div><span>01</span><p><strong>Escolha sua categoria</strong><small>Navegue por uma vitrine simples e organizada.</small></p></div>
+            <div><span>02</span><p><strong>Consulte o produto</strong><small>Veja detalhes e disponibilidade pelo WhatsApp.</small></p></div>
+            <div><span>03</span><p><strong>Fale direto com a loja</strong><small>Atendimento pessoal, sem etapas complicadas.</small></p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contato">
+      <div class="container contact__card reveal">
+        <div class="contact__content">
+          <p class="eyebrow eyebrow--light"><span></span> Fale com a Mazzola</p>
+          <h2>Encontrou o que precisava?</h2>
+          <p>Envie uma mensagem para consultar marcas, tamanhos, preços e disponibilidade.</p>
+          <div class="contact__actions">
+            <a class="button button--white js-whatsapp" href="#" data-message="Olá! Vim pelo site da Agropecuária Mazzola e gostaria de fazer uma consulta.">Chamar no WhatsApp <span>→</span></a>
+            <a class="button button--transparent" href="https://www.instagram.com/agropecuaria.mazzola/" target="_blank" rel="noopener noreferrer">Ver Instagram</a>
+          </div>
+        </div>
+        <div class="contact__info">
+          <div><span>Localização</span><strong>Itapetininga — SP</strong></div>
+          <div><span>Atendimento</span><strong>Consulte horários</strong></div>
+          <div><span>Instagram</span><strong>@agropecuaria.mazzola</strong></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__top">
+      <a class="brand brand--footer" href="#inicio">
+        <span class="brand__mark brand__mark--dark"><img src="assets/logo-white.png" alt="Logo da Agropecuária Mazzola" width="54" height="54" /></span>
+        <span class="brand__name"><small>Agropecuária</small><strong>Mazzola</strong></span>
+      </a>
+      <p>Rações, pesca, acessórios, linha pet e produtos para o campo.</p>
+      <a class="footer__instagram" href="https://www.instagram.com/agropecuaria.mazzola/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="current-year"></span> Agropecuária Mazzola.</span>
+      <span>Catálogo sujeito à disponibilidade.</span>
+      <span>Desenvolvido por <a href="https://felipeferreira.dev" target="_blank" rel="noopener noreferrer">Felipe Ferreira</a></span>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float js-whatsapp" href="#" aria-label="Falar com a Agropecuária Mazzola pelo WhatsApp" data-message="Olá! Vim pelo site da Agropecuária Mazzola.">
+    <span aria-hidden="true">✆</span><b>WhatsApp</b>
+  </a>
+
+  <div class="modal" id="product-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__panel">
+      <button class="modal__close" type="button" aria-label="Fechar" data-close-modal>×</button>
+      <div class="modal__visual"><img id="modal-image" src="" alt="" /></div>
+      <div class="modal__content">
+        <span class="modal__category" id="modal-category"></span>
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+        <ul class="modal__list">
+          <li>Disponibilidade sob consulta</li>
+          <li>Consulte marcas, tamanhos e opções</li>
+          <li>Atendimento direto pelo WhatsApp</li>
+        </ul>
+        <a class="button button--primary" id="modal-whatsapp" href="#">Consultar este produto <span>→</span></a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
